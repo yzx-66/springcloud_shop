@@ -1,8 +1,9 @@
 # springcloud微服务商城
 
 #### 介绍
+
 后端使用技术
-SpringBoot+SpringCloud+mybatis+fastDfs+redis+mongodb+elstaticsearch+rabbitmq+jwt
+SpringBoot+SpringCloud+nginx+mybatis+fastDfs+thymeleaf+redis+mongodb+elstaticsearch+rabbitmq+jwt
 
 前端使用技术
 vue+axios+live-server+qrcode
