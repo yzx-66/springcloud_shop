@@ -1,0 +1,27 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: search-service
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.56.132:9300
+  jackson:
+    default-property-inclusion: non_null
+  main:
+    allow-bean-definition-overriding: true
+  rabbitmq:
+    host: 192.168.56.132
+    username: guest
+    password: guest
+    virtual-host: /shop
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:10086/eureka
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true

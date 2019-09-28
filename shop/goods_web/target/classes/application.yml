@@ -1,0 +1,22 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: goods-web
+  main:
+    allow-bean-definition-overriding: true
+  thymeleaf:
+    cache: false
+    encoding: UTF-8
+  rabbitmq:
+    host: 192.168.56.132
+    username: guest
+    password: guest
+    virtual-host: /shop
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+

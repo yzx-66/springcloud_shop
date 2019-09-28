@@ -1,0 +1,26 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: cart-service
+  data:
+    mongodb:
+      host: 192.168.56.132
+      database: cartdb
+  redis:
+    host: 192.168.56.132
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
+
+shop:
+  jwt:
+    pubKeyPath: C:\\tmp\\rsa\\rsa.pub # 公钥地址
+    cookieName: SHOP_TOKEN

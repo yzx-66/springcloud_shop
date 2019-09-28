@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="authservice" />
+        <module name="upload" />
+        <module name="search" />
+        <module name="userservice" />
+        <module name="shop-order" />
+        <module name="authcommen" />
+        <module name="gateway" />
+        <module name="commen" />
+        <module name="goods_web" />
+        <module name="userinterface" />
+        <module name="registry" />
+        <module name="sms" />
+        <module name="shop-registry" />
+        <module name="interface" />
+        <module name="cart" />
+        <module name="service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="goodsweb" target="1.8" />
+      <module name="registry" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="authcommen" options="-parameters" />
+      <module name="authservice" options="-parameters" />
+      <module name="cart" options="-parameters" />
+      <module name="commen" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="goods_web" options="-parameters" />
+      <module name="goodsweb" options="-parameters" />
+      <module name="interface" options="-parameters" />
+      <module name="registry" options="-parameters" />
+      <module name="search" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="shop-order" options="-parameters" />
+      <module name="shop-registry" options="-parameters" />
+      <module name="sms" options="-parameters" />
+      <module name="upload" options="-parameters" />
+      <module name="userinterface" options="-parameters" />
+      <module name="userservice" options="-parameters" />
+    </option>
+  </component>
+</project>

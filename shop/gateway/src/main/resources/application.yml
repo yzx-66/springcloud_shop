@@ -1,0 +1,39 @@
+server:
+  port: 10010
+
+spring:
+  application:
+    name: shop-gateway
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:10086/eureka
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+    prefer-ip-address: true
+
+zuul:
+  prefix: /api
+  routes:
+    item-service: /item/**
+    search-service: /search/**
+    user-service: /user/**
+    auth-service: /auth/**
+    cart-service: /cart/**
+    order-service: /order/**
+  add-host-header: true
+  sensitive-headers:  # 覆盖默认敏感头信息
+
+shop:
+  jwt:
+    pubKeyPath: C:\\tmp\\rsa\\rsa.pub # 公钥地址
+    cookieName: SHOP_TOKEN # cookie的名称
+  filter:
+    allowPaths:
+      - /api/auth
+      - /api/search
+      - /api/user/register
+      - /api/user/check
+      - /api/user/code
+      - /api/item

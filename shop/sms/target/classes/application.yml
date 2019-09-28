@@ -1,0 +1,18 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 192.168.56.132
+    username: guest
+    password: guest
+    virtual-host: /shop
+
+shop:
+  sms:
+    accessKeyId: LTAIpmmNQtAZrp8p # 你自己的accessKeyId
+    accessKeySecret: Hq5ozK5rQ9UjsFgJLDKpW4jhl8kop3 # 你自己的AccessKeySecret
+    signName: FrameExc # 签名名称
+    verifyCodeTemplate: SMS_167527459 # 模板名称

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shop-manage-web/build/webpack.dev.conf.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shop-manage-web/config/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../shop-manage-web/package.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth/auth-commen" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/auth/auth-commen/src/main/java/com/yzx/shop/auth/entity/UserInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/auth/auth-commen/src/main/java/com/yzx/shop/auth/utils/JwtConstans.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/auth/auth-commen/src/main/java/com/yzx/shop/auth/utils/JwtUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/auth/auth-commen/src/main/java/com/yzx/shop/auth/utils/ObjectUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/auth/auth-commen/src/main/java/com/yzx/shop/auth/utils/RsaUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/auth/auth-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commen" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/commen/src/main/java/com/yzx/shop/commen/utils/CodecUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commen/src/main/java/com/yzx/shop/commen/utils/CookieUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commen/src/main/java/com/yzx/shop/commen/utils/IdWorker.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commen/src/main/java/com/yzx/shop/commen/utils/JsonUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/commen/src/main/java/com/yzx/shop/commen/utils/NumberUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goods_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/goods_web/src/main/resources/templates/item.html" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/item/interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/item/service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user/user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user/user-service" charset="UTF-8" />
+  </component>
+</project>
