@@ -4,6 +4,14 @@
 
 练习的综合项目 主要熟悉微服务框架SpringCloud与练习其他技术
 
+#### 部分运行截图
+![](https://gitee.com/yzx66/springcloud_shop/raw/master/1.png "截图")
+![](https://gitee.com/yzx66/springcloud_shop/raw/master/2.png "截图")
+![](https://gitee.com/yzx66/springcloud_shop/raw/master/3.png "截图")
+![](https://gitee.com/yzx66/springcloud_shop/raw/master/4.png "截图")
+![](https://gitee.com/yzx66/springcloud_shop/raw/master/5.png "截图")
+![](https://gitee.com/yzx66/springcloud_shop/raw/master/6.png "截图")
+
 #### 使用技术
 
 * 后端：SpringBoot + SpringCloud + TkMybatis + FastDfs + Thymeleaf + Redis + Mongodb +Elstaticsearch + Rabbitmq + Jwt
